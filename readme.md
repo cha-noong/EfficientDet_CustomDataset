@@ -1,6 +1,6 @@
 # EfficientDet + CustomDataset + albumentations
 
-This project is customizing the [effiecientdet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) of the Pytorch version.
+This project is customized the [effiecientdet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) of the Pytorch version.
 
 Dataloader was modified to suit custom data(such as necklace...), and [Data Augmentation library](https://github.com/albumentations-team/albumentations) was also applied.
 
@@ -23,8 +23,6 @@ Please refer to the two links
 
 * [albumentations](https://github.com/albumentations-team/albumentations)
 
-
-GPU is highly recommended. The run time is ~0.01s with GPU(GeForce GTX 1080) and ~0.2s with CPU(Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz).
 
 
 ## Training
