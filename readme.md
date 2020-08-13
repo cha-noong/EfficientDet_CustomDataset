@@ -10,7 +10,9 @@ Dataloader was modified to suit custom data(such as necklace...), and [Data Augm
 
 It is highly recommended to install with anaconda
 Please refer to the two links
+
 [first link](https://github.com/albumentations-team/albumentations)
+
 [second link](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
 
 * Python 3.6 (numpy, skimage, scipy)
