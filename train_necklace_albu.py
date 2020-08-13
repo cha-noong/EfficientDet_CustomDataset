@@ -38,7 +38,7 @@ def divide_id(dir):
 
 def split_train_already(ids):
     ids_data = list(ids)
-    #np.random.shuffle(ids_data)
+    np.random.shuffle(ids_data)
     return ids_data[:]
 
 def get_args():
