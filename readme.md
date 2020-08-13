@@ -70,7 +70,7 @@ Training EfficientDet is a painful and time-consuming task. You shouldn't expect
     # modify it following 'coco.yml'
      
     # for example
-    project_name: necklace
+    project_name: neck
     train_set: train
     val_set: val
     num_gpus: 1  # 0 means using cpu, 1-N means using gpus 
