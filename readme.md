@@ -9,7 +9,6 @@ Dataloader was modified to suit custom data(such as necklace...), and [Data Augm
 
 Training EfficientDet is a painful and time-consuming task. You shouldn't expect to get a good result within a day or two. Please be patient.
 
-Check out this [tutorial](tutorial/train_shape.ipynb) if you are new to this. You can run it on colab with GPU support.
 
 ### 1. Prepare your dataset
 
@@ -73,7 +72,14 @@ Check out this [tutorial](tutorial/train_shape.ipynb) if you are new to this. Yo
     # train efficientdet-d1 on a custom dataset 
     # with batchsize 8 and learning rate 1e-5
     
-    python train.py -c 1 -p your_project_name --batch_size 8 --lr 1e-5
+    for coco
+        python train.py -c 1 -p your_project_name --batch_size 8 --lr 1e-5
+    
+    for custom dataset
+        python train_necklace.py
+        
+    for custom dataset + album
+        python train_necklace_album.py
 
 
 
