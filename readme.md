@@ -5,6 +5,28 @@ This project is customizing the [effiecientdet](https://github.com/zylo117/Yet-A
 Dataloader was modified to suit custom data(such as necklace...), and [Data Augmentation library](https://github.com/albumentations-team/albumentations) was also applied.
 
 
+
+## Prerequisite
+
+It is highly recommended to install with anaconda
+Please refer to the two links
+[first link](https://github.com/albumentations-team/albumentations)
+[second link](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch)
+
+* Python 3.6 (numpy, skimage, scipy)
+
+* pyotorch >= 1.3
+
+* torchvision >= 0.5.0
+
+* opencv > 4.1
+
+* [albumentations](https://github.com/albumentations-team/albumentations)
+
+
+GPU is highly recommended. The run time is ~0.01s with GPU(GeForce GTX 1080) and ~0.2s with CPU(Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz).
+
+
 ## Training
 
 Training EfficientDet is a painful and time-consuming task. You shouldn't expect to get a good result within a day or two. Please be patient.
