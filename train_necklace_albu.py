@@ -237,13 +237,13 @@ def train(opt):
                     annot = data['annot']
 
                     ################just GT check#########################
-                    img_sample = imgs[0,:,:,:]
-                    annot_sample = annot[0,:,:]
-                    img_out = img_sample.numpy()
-                    img_out = np.transpose(img_out, (1,2,0))
-                    img_out = cv2.cvtColor(img_out, cv2.COLOR_RGB2BGR)
-                    annot_out = annot_sample.numpy()
-                    count, _ = annot_out.shape
+                    #img_sample = imgs[0,:,:,:]
+                    #annot_sample = annot[0,:,:]
+                    #img_out = img_sample.numpy()
+                    #img_out = np.transpose(img_out, (1,2,0))
+                    #img_out = cv2.cvtColor(img_out, cv2.COLOR_RGB2BGR)
+                    #annot_out = annot_sample.numpy()
+                    #count, _ = annot_out.shape
                     # for i in range(count):
                     #     if annot_out[i,4]  >= 0:
                     #         cv2.rectangle(img_out, (int(annot_out[i,0]),int(annot_out[i,1])), (int(annot_out[i,2]),int(annot_out[i,3])), (255,0,0), 1)
