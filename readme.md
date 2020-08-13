@@ -69,11 +69,11 @@ Training EfficientDet is a painful and time-consuming task. You shouldn't expect
 
 ### 3. Train a custom dataset from scratch
 
-    # train efficientdet-d1 on a custom dataset 
+    # train efficientdet-d0 on a custom dataset 
     # with batchsize 8 and learning rate 1e-5
     
     for coco
-        python train.py -c 1 -p your_project_name --batch_size 8 --lr 1e-5
+        python train.py -c 0 -p your_project_name --batch_size 8 --lr 1e-5
     
     for custom dataset
         python train_necklace.py
