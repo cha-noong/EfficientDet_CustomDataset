@@ -87,7 +87,7 @@ class NeckDataset(Dataset):
     def load_image(self, image_index):
         path = self.root_dir + '/' + self.set_name + '/image/' + self.file_list[image_index] + '.png'
         img = cv2.imread(path)
-        print(path)
+        #print(path)
         h, w, _ = img.shape
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         return img.astype(np.float32)/255, h,w
